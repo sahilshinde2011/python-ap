@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("riddhigala18/python-app:latest")
+       app = docker.build("riddhigala18/python-app")
     }
 
     stage('Test image') {
