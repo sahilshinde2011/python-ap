@@ -15,7 +15,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("riddhigala09/python-app")
+       app = docker.build("riddhigala18/python-app")
     }
 
     stage('Test image') {
