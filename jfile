@@ -28,7 +28,7 @@ node {
     }
 
     // Optional: Clean up
-    //stage('Clean up') {
-    //    sh 'docker rmi riddhigala18/python-app:${env.BUILD_NUMBER} || true'
-    //}
+    stage('Clean up') {
+        sh 'docker rmi riddhigala18/python-app:${env.BUILD_NUMBER} || true'
+    }
 }
